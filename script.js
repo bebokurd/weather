@@ -60,11 +60,11 @@ const createElements = (data) => {
 	let current_windspeed = data.current_weather.windspeed;
 
 	if (current_temp <= 16) {
-		icon = "./pics/frozen.png";
+		icon = "https://bebokurd.github.io/weather/pics/frozen.png";
 	} else if (current_temp > 16 && current_temp <= 25) {
-		icon = "./pics/cool.png";
+		icon = "https://bebokurd.github.io/weather//pics/cool.png";
 	} else {
-		icon = "./pics/hot.png";
+		icon = "https://bebokurd.github.io/weather/pics/hot.png";
 	}
 	currentWeatherDiv.innerHTML = `
     <div class="m-2 row text-center">
